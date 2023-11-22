@@ -13,11 +13,11 @@ stages {
                 git clone --bare https://github.com/rugmak/sync-practise.git
                 ls
                 cd  /var/jenkins_home/workspace/first_sync/sync-practise.git/
-                git remote set-url --push origin https://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@github.com/pratyaksh-kumar/gitsync_pk.git
+                git remote set-url --push origin https://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@github.com/pratyaksh-kumar/gitsync_pk.git
                 git remote -v
                 git fetch -p origin
                 ls
-                git push --mirror --force https://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@github.com/pratyaksh-kumar/gitsync_pk.git
+                git push --mirror --force https://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@github.com/pratyaksh-kumar/gitsync_pk.git
                 '''
                 }
                 }
