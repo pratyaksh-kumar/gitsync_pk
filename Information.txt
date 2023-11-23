@@ -1,3 +1,1 @@
-This is the repository for git sync
-New line
-Add
+Welcome to git sync activity
