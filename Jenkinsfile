@@ -12,7 +12,7 @@ stages {
                 rm -rf sync-practise.git || true
                 git clone --bare https://github.com/rugmak/sync-practise.git
                 ls
-                cd  /var/jenkins_home/workspace/first_sync/sync-practise.git/
+                cd  /var/jenkins_home/workspace/Sync_job/sync-practise.git/
                 git remote set-url --push origin https://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@github.com/pratyaksh-kumar/gitsync_pk.git
                 git remote -v
                 git fetch -p origin
