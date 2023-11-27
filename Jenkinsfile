@@ -7,7 +7,7 @@ pipeline {
 stages {
         stage('Create and Push Mirror repo') {
             steps {
-                withCredentials([gitUsernamePassword(credentialsId: 'Jenkins_token', gitToolName: 'Default'), gitUsernamePassword(credentialsId: 'Pushing_token', gitToolName: 'Default')]) 
+                withCredentials([gitUsernamePassword(credentialsId: 'Jenkins_token', gitToolName: 'Default'), gitUsernamePassword(credentialsId: 'Pushing_token', gitToolName: 'Default')]) { 
                 sh '''
                 rm -rf sync-practise.git || true
                 git clone --bare https://github.com/rugmak/sync-practise.git
