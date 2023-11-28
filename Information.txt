@@ -1,3 +1,4 @@
 Welcome to git sync activity
 new
 Pushing contents with encrypted token
+new line 
